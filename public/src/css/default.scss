@@ -1,0 +1,46 @@
+@font-face
+{
+	font-family: proximanova;
+	src: url(/src/fonts/proximanova_regular.ttf);
+}
+
+body
+{
+	font-family: proximanova, sans-serif;
+}
+
+@import url("/public/src/css/vars.scss");
+
+.body
+{
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	padding: 0;
+	
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
+	background-position: center center !important;
+	background-attachment: fixed !important;
+	padding-top: var(--navbar-height);
+}
+
+a
+{
+	color: $main-color;
+	text-decoration: underline;
+}
+
+*
+{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+picture img
+{
+	width: 100%; 
+	display: block;
+}

@@ -1,0 +1,108 @@
+/* General Layout */
+.main-section
+{
+	padding: 20px;
+	max-width: 1200px;
+	margin: auto;
+	color: white;
+}
+
+/* Content Sections */
+.content-section {
+	display: inline-block;
+    width: 100%;
+	padding: 20px 0;
+}
+
+.left
+{
+	float: left;
+	padding: 0 10px 0 0;
+}
+
+.right
+{
+	float: right;
+	padding: 0 0 0 10px;
+}
+
+.image.right
+{
+	padding: 0 0 0 30px;
+}
+
+.title {
+	font-size: 1.8rem;
+	margin-bottom: 15px;
+	margin-top: 0;
+	text-align: left;
+	width: 50%;
+}
+
+.game-description {
+	font-size: 1rem;
+	line-height: 1.5;
+	text-align: left;
+	width: 50%;
+}
+
+.game-description.notice {
+	font-size: 0.5rem;
+}
+
+.title.full-width, .media-video.full-width, .game-description.full-width {
+	width: 100%;
+}
+
+.title, .game-description {
+	width: auto; /* Allows the text to flow naturally */
+	display: block;
+	overflow: hidden; /* Ensures proper wrapping around floated elements */
+}
+
+/* Media Block */
+.media-block {
+	max-width: 600px;
+}
+
+.media-video {
+	width: 65%;
+	border-radius: 8px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+	
+	.title {
+		font-size: 1.5rem;
+	}
+
+	.game-description {
+		font-size: 0.9rem;
+	}
+	.main-section
+	{
+		padding: 0;
+		width: 100%;
+	}
+
+	.right, .left
+	{
+		float: none;
+	}
+
+	.media-video
+	{
+		width: 100%;
+	}
+
+	.content-section
+	{
+		padding: 0 20px ;
+	}
+}
+
+.list
+{
+	text-align: left;
+}
