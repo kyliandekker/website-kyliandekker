@@ -15,81 +15,6 @@ function getKylianDekker(roles: PROJECT_ROLE[]): Teammate
 	)
 }
 
-// function getBasVanSeeters(roles: PROJECT_ROLE[]): Teammate
-// {
-// 	return new Teammate(
-// 		TEAMMATE.BAS_VAN_SEETERS,
-// 		roles,
-// 		new TeammateLink(
-// 			"http://seeters.co/",
-// 			"https://github.com/BluEngineer",
-// 			"https://www.linkedin.com/in/bas-van-seeters-7b756b15b/",
-// 			"",
-// 			""
-// 		)
-// 	)
-// }
-
-// function getReneMeegdes(roles: PROJECT_ROLE[]): Teammate
-// {
-// 	return new Teammate(
-// 		TEAMMATE.RENE_MEEGDES,
-// 		roles,
-// 		new TeammateLink(
-// 			"",
-// 			"",
-// 			"https://www.linkedin.com/in/rene-meegdes-710203118",
-// 			"https://www.artstation.com/rmeegdes",
-// 			"https://www.behance.net/rmeegdes68c5",
-// 		)
-// 	)
-// }
-
-// function getFreyaDeVries(roles: PROJECT_ROLE[]): Teammate
-// {
-// 	return new Teammate(
-// 		TEAMMATE.FREYA_DE_VRIES,
-// 		roles,
-// 		new TeammateLink(
-// 			"",
-// 			"",
-// 			"https://www.linkedin.com/in/freya-de-vries",
-// 			"",
-// 			"https://www.behance.net/freyavriese70d",
-// 		)
-// 	)
-// }
-
-// function getDanishaGroos(roles: PROJECT_ROLE[]): Teammate
-// {
-// 	return new Teammate(
-// 		TEAMMATE.DANISHA_GROOS,
-// 		roles,
-// 		new TeammateLink(
-// 			"",
-// 			"",
-// 			"https://www.linkedin.com/in/danishagroos",
-// 			"",
-// 			"https://www.behance.net/danishaivana",
-// 		)
-// 	)
-// }
-
-// function getAaronVanErp(roles: PROJECT_ROLE[]): Teammate
-// {
-// 	return new Teammate(
-// 		TEAMMATE.AARON_VAN_ERP,
-// 		roles,
-// 		new TeammateLink(
-// 			"",
-// 			"",
-// 			"",
-// 			"",
-// 			"https://www.behance.net/avanerp4836",
-// 		)
-// 	)
-// }
-
 function getKayminSambrano(roles: PROJECT_ROLE[]): Teammate
 {
 	return new Teammate(
@@ -193,54 +118,6 @@ function getLucaYavuzok(roles: PROJECT_ROLE[]): Teammate {
 	);
 }
 
-// function getEvieDeVisser(roles: PROJECT_ROLE[]): Teammate {
-// 	return new Teammate(
-// 		TEAMMATE.EVIE_DE_VISSER,
-// 		roles,
-// 		new TeammateLink("", "", "", "", "")
-// 	);
-// }
-
-// function getWillemVanDenAkker(roles: PROJECT_ROLE[]): Teammate {
-// 	return new Teammate(
-// 		TEAMMATE.WILLEM_VAN_DEN_AKKER,
-// 		roles,
-// 		new TeammateLink("", "", "https://www.linkedin.com/in/willem-van-den-akker-a04405155/", "", "")
-// 	);
-// }
-
-// function getTingTingChong(roles: PROJECT_ROLE[]): Teammate {
-// 	return new Teammate(
-// 		TEAMMATE.TINGTING_CHONG,
-// 		roles,
-// 		new TeammateLink("", "", "https://www.linkedin.com/in/ting-ting-chong-854438132", "https://www.artstation.com/artwork/2xR4BK", "")
-// 	);
-// }
-
-// function getJipVanDeWouw(roles: PROJECT_ROLE[]): Teammate {
-// 	return new Teammate(
-// 		TEAMMATE.JIP_VAN_DE_WOUW,
-// 		roles,
-// 		new TeammateLink("", "", "https://www.linkedin.com/in/jipvdwouw", "", "https://www.behance.net/jipwouwe115")
-// 	);
-// }
-
-// function getCelineTijdhof(roles: PROJECT_ROLE[]): Teammate {
-// 	return new Teammate(
-// 		TEAMMATE.CELINE_TIJDHOF,
-// 		roles,
-// 		new TeammateLink("", "", "https://www.linkedin.com/in/celine-tijdhof-07a67815b", "", "https://www.behance.net/celinetijdhof")
-// 	);
-// }
-
-// function getColinDeKoning(roles: PROJECT_ROLE[]): Teammate {
-// 	return new Teammate(
-// 		TEAMMATE.COLIN_DE_KONING,
-// 		roles,
-// 		new TeammateLink("https://ccmdekoning.wixsite.com/portfolio", "", "https://www.linkedin.com/in/colindk/", "", "")
-// 	);
-// }
-
 function getMattieToth(roles: PROJECT_ROLE[]): Teammate {
 	return new Teammate(
 		TEAMMATE.MATTIE_TOTH,
@@ -248,22 +125,6 @@ function getMattieToth(roles: PROJECT_ROLE[]): Teammate {
 		new TeammateLink("", "", "", "", "")
 	);
 }
-
-// function getPepijnVanLoon(roles: PROJECT_ROLE[]): Teammate {
-// 	return new Teammate(
-// 		TEAMMATE.PEPIJN_VAN_LOON,
-// 		roles,
-// 		new TeammateLink("", "", "https://www.linkedin.com/in/pepijn-van-loon-6795aa257/", "", "")
-// 	);
-// }
-
-// function getDannyOosterwijk(roles: PROJECT_ROLE[]): Teammate {
-// 	return new Teammate(
-// 		TEAMMATE.DANNY_OOSTERWIJK,
-// 		roles,
-// 		new TeammateLink("https://dannyoosterwijk.journoportfolio.com/", "", "https://www.linkedin.com/in/danny-oosterwijk-34b551182/", "", "")
-// 	);
-// }
 
 function getMaxVanDerPlas(roles: PROJECT_ROLE[]): Teammate {
 	return new Teammate(
@@ -474,69 +335,13 @@ function getCelineVanDerKnaap(roles: PROJECT_ROLE[]): Teammate {
 // }
 
 export const PROJECTS: Project[] = [
-	// new Project(
-	// 	"CoopScoop",
-	// 	"A chicken virus spreads rapidly across the country and some of your chickens are infected and you need to take care of the sick chickens. You need to wash them, feed them and take good care of them to maintain a stable farm. Can you manage all those chickens?",
-	// 	"coopscoop-logo-picture.jpg",
-	// 	"./coopscoop",
-	// 	[ PROJECT_PLATFORM.WINDOWS ],
-	// 	"coopscoop-showcase-video_c.mp4",
-	// 	false,
-	// 	PROJECT_TYPE.VIDEO_GAME,
-	// 	[ "indigo-award-2018.png", "indigo-2018-selection.png" ],
-	// 	[ PROGRAMMING_LANGUAGE.CS ],
-	// 	GAME_ENGINE.UNITY_ENGINE,
-	// 	new UniqueCollection<Teammate>([
-	// 		getKylianDekker(
-	// 			[
-	// 				PROJECT_ROLE.PROJECT_LEADER,
-	// 				PROJECT_ROLE.GAMEPLAY_PROGRAMMER,
-	// 				PROJECT_ROLE.COMPOSER,
-	// 				PROJECT_ROLE.GAME_DESIGNER,
-	// 				PROJECT_ROLE.GENERALIST,
-	// 			]
-	// 		),
-	// 		getBasVanSeeters(
-	// 			[
-	// 				PROJECT_ROLE.TECHNICAL_ARTIST,
-	// 				PROJECT_ROLE.GAME_DESIGNER
-	// 			]
-	// 		),
-	// 		getReneMeegdes(
-	// 			[
-	// 				PROJECT_ROLE.ARTIST_3D
-	// 			]
-	// 		),
-	// 		getFreyaDeVries(
-	// 			[
-	// 				PROJECT_ROLE.ARTIST_2D
-	// 			]
-	// 		),
-	// 		getDanishaGroos(
-	// 			[
-	// 				PROJECT_ROLE.ARTIST_3D
-	// 			]
-	// 		),
-	// 		getAaronVanErp(
-	// 			[
-	// 				PROJECT_ROLE.ARTIST_3D
-	// 			]
-	// 		),
-	// 		getKayminSambrano(
-	// 			[
-	// 				PROJECT_ROLE.VOICE_ACTOR
-	// 			]
-	// 		)
-	// 	]),
-	// 	[ PROJECT_TAG.SINGLEPLAYER, PROJECT_TAG.VR, PROJECT_TAG.ARCADE, PROJECT_TAG.ART_3D, PROJECT_TAG.LOW_POLY ],
-	// 	"indigo-winner-2018"
-	// ),
 	new Project(
 		"Microsoft Flight Simulator 2024",
+		"Climax Studios",
 		"Explore the world with our largest fleet of aircraft and take simulation to new heights while pursuing your aviation career within Microsoft Flight Simulator 2024.",
 		"2023-2024",
 		"msfs",
-		[ PROJECT_PLATFORM.WINDOWS, PROJECT_PLATFORM.STEAM ],
+		[ PROJECT_PLATFORM.WINDOWS, PROJECT_PLATFORM.STEAM, PROJECT_PLATFORM.XBOX, PROJECT_PLATFORM.PS5 ],
 		PROJECT_TYPE.VIDEO_GAME,
 		PROGRAMMING_LANGUAGE.CPP,
 		GAME_ENGINE.IN_HOUSE,
@@ -556,6 +361,7 @@ export const PROJECTS: Project[] = [
 			// "Developed responsive front-end UI systems using TypeScript, ensuring seamless user experiences.",
 			"Translated client designs and requirements into polished game mechanics, aligning gameplay features with project goals.",
 			"Collaborated effectively with a multidisciplinary team of programmers and designers to drive project success.",
+			"Stubbed and implemented methods for Playstation 5.",
 			// "Utilized industry-standard tools, including Coherent UI, Perforce, and Visual Studio, to support efficient development pipelines.",
 		],
 		[
@@ -564,15 +370,80 @@ export const PROJECTS: Project[] = [
 			"How important development tools are when working and debugging in projects of this scale.",
 			"Working and communicating with other companies when work is shared across different studios.",
 		],
-		[ PROJECT_TAG.SINGLEPLAYER, PROJECT_TAG.MULTIPLAYER, PROJECT_TAG.ART_3D, PROJECT_TAG.SIMULATION ],
+		[ PROJECT_TAG.SINGLEPLAYER, PROJECT_TAG.MULTIPLAYER, PROJECT_TAG.ART_3D, PROJECT_TAG.SIMULATION, PROJECT_TAG.PORTING ],
 		"#48C7F0"
 	),
 	new Project(
-		"Game Engine + Game",
+		"Arma 4",
+		"Bohemia Interactive",
+		"Due to NDA, I am currently unable to say much about my work in Arma 4, but here are a few bullet points of my general activities.",
+		"2025-20XX",
+		"arma4",
+		[ PROJECT_PLATFORM.WINDOWS, PROJECT_PLATFORM.STEAM ],
+		PROJECT_TYPE.VIDEO_GAME,
+		PROGRAMMING_LANGUAGE.CPP,
+		GAME_ENGINE.ENFUSION,
+		new UniqueCollection<Teammate>([
+			getKylianDekker(
+				[
+					PROJECT_ROLE.GAMEPLAY_PROGRAMMER,
+					PROJECT_ROLE.TECHNICAL_DESIGNER,
+					PROJECT_ROLE.SCRIPTER,
+				]
+			)
+		]),
+		[
+			"Created certain features in the Arma 4 environment",
+			"Designed tools and workflows that empower technical designers and scripters to expand functionality.",
+			"Designed and created architecture meant for sharing between projects.",
+			"Focused on creating frameworks that support modding, community-driven content, and multiplayer features."
+		],
+		[
+			"How to identify and prioritize the most critical tasks during development.",
+			"Take leadership of tasks, take meeting notes, organize and schedule meetings.",
+		],
+		[ PROJECT_TAG.SINGLEPLAYER, PROJECT_TAG.MULTIPLAYER, PROJECT_TAG.ART_3D ],
+		"#8E4742"
+	),
+	new Project(
+		"Unannounced Project in DayZ Series",
+		"Bohemia Interactive",
+		"Due to NDA, I am currently unable to say much about what project I have worked on, but here are a few bullet points of my general activities.",
+		"2025-20XX",
+		"bi",
+		[ PROJECT_PLATFORM.WINDOWS, PROJECT_PLATFORM.STEAM, PROJECT_PLATFORM.XBOX, PROJECT_PLATFORM.PS5 ],
+		PROJECT_TYPE.VIDEO_GAME,
+		PROGRAMMING_LANGUAGE.CPP,
+		GAME_ENGINE.ENFUSION,
+		new UniqueCollection<Teammate>([
+			getKylianDekker(
+				[
+					PROJECT_ROLE.GAMEPLAY_PROGRAMMER,
+					PROJECT_ROLE.TECHNICAL_DESIGNER,
+					PROJECT_ROLE.SCRIPTER,
+				]
+			)
+		]),
+		[
+			"Created core gameplay systems within a proprietary engine using C++.",
+			"Involved from the project’s conception, contributing to the early prototype phase.",
+			"Gained experience in building systems with scalability, long-term maintainability, and multiplayer support in mind.",
+			"Designed tools and workflows that empower technical designers and scripters to expand functionality.",
+			"Focused on creating frameworks that support modding, community-driven content, and multiplayer features."
+		],
+		[
+			"How to identify and prioritize the most critical tasks during development",
+		],
+		[ PROJECT_TAG.SINGLEPLAYER, PROJECT_TAG.MULTIPLAYER ],
+		"#68A13C"
+	),
+	new Project(
+		"Gudenuff Engine (custom engine) + game",
+		"",
 		"A game engine for a 2D roguelike dungeon crawlers with rhythm-based mechanics. Can compile games for PC and PS4. Used to make the game Setsuko: Drums of Harmony.",
 		"2023-2024",
 		"gudenuffengine",
-		[ PROJECT_PLATFORM.WINDOWS, PROJECT_PLATFORM.PS4 ],
+		[ PROJECT_PLATFORM.WINDOWS, PROJECT_PLATFORM.PS4, PROJECT_PLATFORM.ITCH ],
 		PROJECT_TYPE.VIDEO_GAME,
 		PROGRAMMING_LANGUAGE.CPP,
 		GAME_ENGINE.GUDENUFF_ENGINE,
@@ -655,11 +526,12 @@ export const PROJECTS: Project[] = [
 			"How to create my own game engine, including the planning process.",
 			"How to create systems based on feedback from designers and gameplay programmers.",
 		],
-		[ PROJECT_TAG.SINGLEPLAYER, PROJECT_TAG.CUSTOM_ENGINE, PROJECT_TAG.PS4, PROJECT_TAG.ART_2D, PROJECT_TAG.RHYTHM_BASED ],
+		[ PROJECT_TAG.SINGLEPLAYER, PROJECT_TAG.CUSTOM_ENGINE, PROJECT_TAG.PS4, PROJECT_TAG.RHYTHM_BASED ],
 		"#4761AB"
 	),
 	new Project(
 		"CoopScoop",
+		"",
 		"A chicken virus spreads rapidly across the country and some of your chickens are infected and you need to take care of the sick chickens. You need to wash them, feed them and take good care of them to maintain a stable farm. Can you manage all those chickens?",
 		"2024-2025",
 		"coopscoop",
@@ -692,15 +564,16 @@ export const PROJECTS: Project[] = [
 			"Learned how to model in Blender.",
 			"Learned how to upload a game to Steam and create a playtesting pipeline.",
 		],
-		[ PROJECT_TAG.SINGLEPLAYER, PROJECT_TAG.VR, PROJECT_TAG.ARCADE, PROJECT_TAG.ART_3D, PROJECT_TAG.LOW_POLY ],
+		[ PROJECT_TAG.SINGLEPLAYER, PROJECT_TAG.VR ],
 		"rgb(223 170 44)"
 	),
 	new Project(
 		"Gallus Engine (Custom Engine)",
+		"",
 		"A pet project of mine used for learning more about graphics, engine architecture, UI, audio and everything else. NOTE: This is a WIP and it is by no means finished. I work on this in my freetime.",
 		"2024-2025",
 		"gallusengine",
-		[ PROJECT_PLATFORM.WINDOWS, PROJECT_PLATFORM.VR ],
+		[ PROJECT_PLATFORM.WINDOWS, PROJECT_PLATFORM.VR, PROJECT_PLATFORM.GITHUB ],
 		PROJECT_TYPE.GAME_ENGINE,
 		PROGRAMMING_LANGUAGE.CPP,
 		GAME_ENGINE.GALLUS_ENGINE,
@@ -724,72 +597,40 @@ export const PROJECTS: Project[] = [
 			"Learned the basics of DirectX12, like resource management, render textures, root signatures, pipelines, etc.",
 			"Learned more about creating custom tools that help accelerate the development of a project like this.",
 		],
-		[ PROJECT_TAG.SINGLEPLAYER, PROJECT_TAG.VR, PROJECT_TAG.CUSTOM_ENGINE ],
+		[ PROJECT_TAG.CUSTOM_ENGINE ],
 		"#6B57D4"
 	),
-	// new Project(
-	// 	"In Sheeps' Clothing",
-	// 	"The political party for animal rights has been taken over by animals and has arranged a meeting about their possibly evil plans for the future. You'll be disguised as a sheep and you'll attend this meeting. Do not do anything suspicious, though! Who knows what they'll do if they find out that you're spying on them?",
-	// 	"insheepsclothing-logo-picture.jpg",
-	// 	"./insheepsclothing",
-	// 	[ PROJECT_PLATFORM.WINDOWS ],
-	// 	"insheepsclothing-showcase-video_c.mp4",
-	// 	false,
-	// 	PROJECT_TYPE.VIDEO_GAME,
-	// 	[ "indigo-2023-selection.png" ],
-	// 	[ PROGRAMMING_LANGUAGE.CS ],
-	// 	GAME_ENGINE.UNITY_ENGINE,
-	// 	new UniqueCollection<Teammate>([
-	// 		getKylianDekker(
-	// 			[
-	// 				PROJECT_ROLE.GAMEPLAY_PROGRAMMER,
-	// 				PROJECT_ROLE.COMPOSER,
-	// 				PROJECT_ROLE.SOUND_DESIGNER,
-	// 				PROJECT_ROLE.GAME_DESIGNER,
-	// 			]
-	// 		),
-	// 		getStanVogels(
-	// 			[
-	// 				PROJECT_ROLE.GAMEPLAY_PROGRAMMER,
-	// 				PROJECT_ROLE.GAME_DESIGNER,
-	// 			]
-	// 		),
-	// 		getWillemVanDenAkker(
-	// 			[
-	// 				PROJECT_ROLE.ARTIST_3D
-	// 			]
-	// 		),
-	// 		getEvieDeVisser(
-	// 			[
-	// 				PROJECT_ROLE.ARTIST_3D
-	// 			]
-	// 		),
-	// 		getDanishaGroos(
-	// 			[
-	// 				PROJECT_ROLE.ARTIST_3D
-	// 			]
-	// 		),
-	// 		getAaronVanErp(
-	// 			[
-	// 				PROJECT_ROLE.ARTIST_3D
-	// 			]
-	// 		),
-	// 		getReneMeegdes(
-	// 			[
-	// 				PROJECT_ROLE.ARTIST_3D
-	// 			]
-	// 		),
-	// 		getKayminSambrano(
-	// 			[
-	// 				PROJECT_ROLE.VOICE_ACTOR
-	// 			]
-	// 		),
-	// 	]),
-	// 	[ PROJECT_TAG.SINGLEPLAYER, PROJECT_TAG.VR, PROJECT_TAG.ARCADE, PROJECT_TAG.ART_2D, PROJECT_TAG.LOW_POLY ],
-	// 	"indigo-selection-2023"
-	// ),
+	new Project(
+		"Audio Showcase",
+		"",
+		"A pet project of mine used for learning more about audio and signal processing.",
+		"2023-2024",
+		"audioengine",
+		[ PROJECT_PLATFORM.WINDOWS, PROJECT_PLATFORM.GITHUB ],
+		PROJECT_TYPE.GAME_ENGINE,
+		PROGRAMMING_LANGUAGE.CPP,
+		GAME_ENGINE.IN_HOUSE,
+		new UniqueCollection<Teammate>([
+			getKylianDekker(
+				[
+					PROJECT_ROLE.ENGINE_PROGRAMMER,
+					PROJECT_ROLE.AUDIO_PROGRAMMER,
+					PROJECT_ROLE.UI_PROGRAMMER,
+				]
+			)
+		]),
+		[
+			"Wrote an audio engine supporting playback, mixing, and basic DSP functionality.",
+		],
+		[
+			"Learned about audio signal processing, multithreading, and applying mathematical concepts to real-time audio systems.",
+		],
+		[ PROJECT_TAG.TOOL, PROJECT_TAG.SHOWCASE ],
+		"#FFCC2E"
+	),
 	new Project(
 		"S.P.L.I.C.E.D",
+		"",
 		"You take on the role of a strong-willed girl determined to challenge the tyranny of the mob leader Jiaolong and free Chinatown from their oppressor. Discover forgotten secrets and powerful weapons that will help you traverse the treacherous streets, as you set off on a dangerous mission to fight the mutants, monsters, and robotic enemies hiding within.",
 		"2023",
 		"spliced",
@@ -977,18 +818,19 @@ export const PROJECTS: Project[] = [
 		[
 			"Designed and implemented the swordfish enemy.",
 			"Developed and integrated multiple systems for dynamic music and sound effects in Unreal Engine.",
-			"Worked on the player's secondary weapon, the charge weapon, enhancing combat mechanics.",
+			"Worked on the player’s secondary weapon, the charge weapon, enhancing combat mechanics.",
 			"Composed the original soundtrack and created most of the sound effects."
 		],
 		[
 			"Learned how to navigate my way around in Unreal Engine."
 		],
-		[ PROJECT_TAG.ACTION_ADVENTURE, PROJECT_TAG.METROIDVANIA, PROJECT_TAG.ART_3D, PROJECT_TAG.WINDOWS ],
+		[ PROJECT_TAG.SINGLEPLAYER ],
 		"#90785C"
 	),
 	new Project(
-		"In Sheeps' Clothing",
-		"The political party for animal rights has been taken over by animals and has arranged a meeting about their possibly evil plans for the future. You'll be disguised as a sheep and you'll attend this meeting. Do not do anything suspicious, though! Who knows what they'll do if they find out that you're spying on them?",
+		"In Sheeps’s Clothing",
+		"",
+		"The political party for animal rights has been taken over by animals and has arranged a meeting about their possibly evil plans for the future. You’ll be disguised as a sheep and you’ll attend this meeting. Do not do anything suspicious, though! Who knows what they’ll do if they find out that you’re spying on them?",
 		"2024",
 		"insheepsclothing",
 		[ PROJECT_PLATFORM.WINDOWS, PROJECT_PLATFORM.VR ],
@@ -1024,127 +866,20 @@ export const PROJECTS: Project[] = [
 		[
 			"Make shared libraries for VR projects and make them dynamic enough where specific game mechanics can be changed."
 		],
-		[ PROJECT_TAG.SINGLEPLAYER, PROJECT_TAG.VR, PROJECT_TAG.ARCADE, PROJECT_TAG.ART_2D, PROJECT_TAG.LOW_POLY ],
+		[ PROJECT_TAG.SINGLEPLAYER, PROJECT_TAG.VR ],
 		"#5E5D3E"
-	),
-	// new Project(
-	// 	"Trash Pickers",
-	// 	"You wake up in a maze crowded with monsters. What's worse, they're polluting the environment by dropping trash all around the maze! Clean up the trash piles, but make sure you do not get touched by the monsters, otherwise your energy-levels get lower until you die.",
-	// 	"2019",
-	// 	"trashpickers",
-	// 	[ PROJECT_PLATFORM.WINDOWS ],
-	// 	PROJECT_TYPE.VIDEO_GAME,
-	// 	[ PROGRAMMING_LANGUAGE.CS, PROGRAMMING_LANGUAGE.NODEJS ],
-	// 	GAME_ENGINE.UNITY_ENGINE,
-	// 	new UniqueCollection<Teammate>([
-	// 		getKylianDekker(
-	// 			[
-	// 				PROJECT_ROLE.GAMEPLAY_PROGRAMMER,
-	// 				PROJECT_ROLE.NETWORK_PROGRAMMER,
-	// 				PROJECT_ROLE.COMPOSER,
-	// 				PROJECT_ROLE.SOUND_DESIGNER,
-	// 				PROJECT_ROLE.GAME_DESIGNER,
-	// 			]
-	// 		),
-	// 		getCelineTijdhof(
-	// 			[
-	// 				PROJECT_ROLE.ARTIST_2D,
-	// 				PROJECT_ROLE.ANIMATOR_2D
-	// 			]
-	// 		),
-	// 		getColinDeKoning(
-	// 			[
-	// 				PROJECT_ROLE.ARTIST_2D,
-	// 			]
-	// 		),
-	// 		getTingTingChong(
-	// 			[
-	// 				PROJECT_ROLE.ARTIST_2D,
-	// 			]
-	// 		),
-	// 		getJipVanDeWouw(
-	// 			[
-	// 				PROJECT_ROLE.ARTIST_2D,
-	// 			]
-	// 		)
-	// 	]),
-	// 	[
-	// 		"Developed and managed all tile-based movement systems, enemy AI behaviors, and trash collection mechanics.",
-	// 		"Implemented and maintained online functionality using WebSockets for both client and server-side communication.",
-	// 		"Composed the original soundtrack and designed immersive sound effects."
-	// 	],
-	// 	[ PROJECT_TAG.MULTIPLAYER, PROJECT_TAG.SINGLEPLAYER, PROJECT_TAG.LINE_ART, PROJECT_TAG.ARCADE, PROJECT_TAG.ART_2D, PROJECT_TAG.CARTOON ],
-	// 	"#AE3A3B"
-	// ),
-	// new Project(
-	// 	"Gudenuff Engine",
-	// 	"A game engine for a 2D roguelike dungeon crawlers with rhythm-based mechanics. Can compile games for PC and PS4. Used to make Setsuko: Drums of Harmony.",
-	// 	"2022-2023",
-	// 	"gudenuff-engine",
-	// 	[ PROJECT_PLATFORM.WINDOWS, PROJECT_PLATFORM.PS4 ],
-	// 	PROJECT_TYPE.GAME_ENGINE,
-	// 	[ PROGRAMMING_LANGUAGE.CPP ],
-	// 	GAME_ENGINE.GUDENUFF_ENGINE,
-	// 	new UniqueCollection<Teammate>([
-	// 		getKylianDekker(
-	// 			[
-	// 				PROJECT_ROLE.ENGINE_PROGRAMMER,
-	// 				PROJECT_ROLE.PROJECT_LEADER,
-	// 				PROJECT_ROLE.AUDIO_PROGRAMMER,
-	// 				PROJECT_ROLE.TOOLS_PROGRAMMER,
-	// 			]
-	// 		),
-	// 		getSlavaTakrovskij(
-	// 			[
-	// 				PROJECT_ROLE.GAMEPLAY_PROGRAMMER,
-	// 			]
-	// 		),
-	// 		getJustinKujawa(
-	// 			[
-	// 				PROJECT_ROLE.GRAPHICS_PROGRAMMER,
-	// 			]
-	// 		),
-	// 		getMartijnVahl(
-	// 			[
-	// 				PROJECT_ROLE.GAMEPLAY_PROGRAMMER,
-	// 			]
-	// 		),
-	// 		getMattieToth(
-	// 			[
-	// 				PROJECT_ROLE.GRAPHICS_PROGRAMMER,
-	// 			]
-	// 		),
-	// 		getDannyOosterwijk(
-	// 			[
-	// 				PROJECT_ROLE.ENGINE_PROGRAMMER,
-	// 			]
-	// 		),
-	// 		getPepijnVanLoon(
-	// 			[
-	// 				PROJECT_ROLE.GAMEPLAY_PROGRAMMER,
-	// 			]
-	// 		),
-	// 	]),
-	// 	[
-	// 		"Designed and implemented the core gameplay mechanic of rhythm-based movement synchronized with a changing BPM.",
-	// 		"Developed various tools and UI components with ImGui for the game engine, including the resource explorer, UI editor, level creator, and audio tools.",
-	// 		"Managed the resource management system across both Windows and PS4 platforms, ensuring efficient asset handling and quick testing.",
-	// 		"Composed the original soundtrack and designed all sound effects."
-	// 	],
-	// 	[ PROJECT_TAG.GAME_ENGINE, PROJECT_TAG.PS4, PROJECT_TAG.RHYTHM_BASED, PROJECT_TAG.ART_2D, PROJECT_TAG.WINDOWS, PROJECT_TAG.TOOL ],
-	// 	"#404040"
-	// ),
-	// TODO: ADD AUDIO ENGINE
+	)
 ];
 
 PROJECTS[0].steamLink = "https://store.steampowered.com/app/2537590/Microsoft_Flight_Simulator_2024/";
-PROJECTS[2].steamLink = "https://store.steampowered.com/app/2672620/CoopScoop/";
-PROJECTS[3].steamLink = "https://store.steampowered.com/app/2163220/SPLICED/";
+PROJECTS[4].steamLink = "https://store.steampowered.com/app/2672620/CoopScoop/";
+PROJECTS[7].steamLink = "https://store.steampowered.com/app/2163220/SPLICED/";
+PROJECTS[3].itchLink = "https://buas.itch.io/gudenuff-drumsofharmony";
 
 const CURRENT_DATE: Date = new Date();
 const PROGRAMMING_YEAR = 2016;
 const PROGRAMMING_YEAR_CPP = 2021;
-const BIRTHDAY: Date = new Date('January 25, 2000 00:00:00');
+const BIRTHDAY: Date = new Date("January 25, 2000 00:00:00");
 
 export const CURRENT_YEAR = () => {
 	return CURRENT_DATE.getFullYear();

@@ -64,99 +64,103 @@
     margin: 10px;
 }
 .icon-blender:before {
-    content: "\";
+    content: "\e000";
 }
 
 .icon-cpp:before {
-    content: "\";
+    content: "\e001";
 }
 
 .icon-csharp:before {
-    content: "\";
+    content: "\e002";
 }
 
 .icon-cv:before {
-    content: "\";
+    content: "\e003";
 }
 
 .icon-git:before {
-    content: "\";
+    content: "\e004";
 }
 
 .icon-github:before {
-    content: "\";
+    content: "\e005";
 }
 
 .icon-home:before {
-    content: "\";
+    content: "\e006";
+}
+
+.icon-itch:before {
+    content: "\e007";
 }
 
 .icon-js:before {
-    content: "\";
+    content: "\e008";
 }
 
 .icon-linkedin:before {
-    content: "\";
+    content: "\e009";
 }
 
 .icon-mail:before {
-    content: "\";
+    content: "\e00a";
 }
 
 .icon-perforce:before {
-    content: "\";
+    content: "\e00b";
 }
 
 .icon-playstation:before {
-    content: "\";
+    content: "\e00c";
 }
 
 .icon-ps3:before {
-    content: "\";
+    content: "\e00d";
 }
 
 .icon-ps4:before {
-    content: "\";
+    content: "\e00e";
 }
 
 .icon-ps5:before {
-    content: "\";
+    content: "\e00f";
 }
 
 .icon-steam:before {
-    content: "\";
+    content: "\e010";
 }
 
 .icon-unity:before {
-    content: "\";
+    content: "\e011";
 }
 
 .icon-unreal:before {
-    content: "\";
+    content: "\e012";
 }
 
 .icon-user:before {
-    content: "\";
+    content: "\e013";
 }
 
 .icon-visual-studio:before {
-    content: "\";
+    content: "\e014";
 }
 
 .icon-vr:before {
-    content: "\";
+    content: "\e015";
 }
 
 .icon-windows:before {
-    content: "\";
+    content: "\e016";
 }
 
 .icon-work:before {
-    content: "\";
+    content: "\e017";
 }
 
 .icon-xbox:before {
-    content: "\";
+    content: "\e018";
 }
 
 </style>

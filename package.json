@@ -4,8 +4,9 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build && npm run compress-images && npm run create-webp-build",
+    "build": "npm run compress-images && npm run compress-videos && vue-cli-service build && npm run create-webp-build",
     "compress-images": "node compress-images.mjs",
+    "compress-videos": "node compress-videos.mjs",
     "create-webp-build": "node create-webp-build.mjs",
     "create-webp-dev": "node create-webp-dev.mjs",
     "create-webm-build": "node create-webm-build.mjs",

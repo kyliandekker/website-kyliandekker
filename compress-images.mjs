@@ -7,8 +7,8 @@ import fs from 'fs';
 
 (async () => {
   // Compress images for the web
-  const files = await imagemin(['dist/**/*.{png,jpg,jpeg,svg}'], {
-    destination: 'dist/', // Base folder remains the same
+  const files = await imagemin(['public/**/*.{png,jpg,jpeg,svg}'], {
+    destination: 'public/', // Base folder remains the same
     plugins: [
       imageminPngquant({
         quality: [0.6, 0.8], // Lower size while keeping quality
@@ -30,8 +30,8 @@ import fs from 'fs';
 
   // Move files back into their original directories within dist/
   files.forEach(file => {
-    const relativeDir = path.relative('dist', path.dirname(file.sourcePath));
-    const destinationDir = path.join('dist', relativeDir);
+    const relativeDir = path.relative('public', path.dirname(file.sourcePath));
+    const destinationDir = path.join('public', relativeDir);
 
     console.log(`Source: ${file.sourcePath}, Destination Directory: ${destinationDir}`);
 

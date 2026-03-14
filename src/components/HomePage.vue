@@ -41,10 +41,14 @@
 
 				<h2 style="margin-bottom: 0; margin-top: 0; display: inline-block;">{{ currentProject.name.toUpperCase() }} <span style="color: gray;">{{ " (" + currentProject.year + ")"}}</span></h2>
 
+				<p v-if="currentProject.company">{{ currentProject.company }}</p>
+
 				<p>
 					<span v-for="(platform, index) in currentProject.platforms" :key="index">
-						<span v-if="checkPlatform(platform)" ><Icon :icon="getPlatformIcon(platform)"></Icon>{{ ' ' + platform }}<span v-if="index !== currentProject.platforms.length - 1"> | </span></span>
-						<a class="steamLink" v-else :href="currentProject.steamLink"><Icon :icon="getPlatformIcon(platform)"></Icon>{{ ' ' + platform }}<span v-if="index !== currentProject.platforms.length - 1"> | </span></a>
+						<a class="steamLink" v-if="platform == PROJECT_PLATFORM.STEAM" :href="currentProject.steamLink"><Icon :icon="getPlatformIcon(platform)"></Icon>{{ ' ' + platform }}<span v-if="index !== currentProject.platforms.length - 1"> | </span></a>
+						<a class="steamLink" v-else-if="platform == PROJECT_PLATFORM.GITHUB" :href="currentProject.gitHubLink"><Icon :icon="getPlatformIcon(platform)"></Icon>{{ ' ' + platform }}<span v-if="index !== currentProject.platforms.length - 1"> | </span></a>
+						<a class="steamLink" v-else-if="platform == PROJECT_PLATFORM.ITCH" :href="currentProject.itchLink"><Icon :icon="getPlatformIcon(platform)"></Icon>{{ ' ' + platform }}<span v-if="index !== currentProject.platforms.length - 1"> | </span></a>
+						<span v-else ><Icon :icon="getPlatformIcon(platform)"></Icon>{{ ' ' + platform }}<span v-if="index !== currentProject.platforms.length - 1"> | </span></span>
 					</span>
 				</p>
 
@@ -126,6 +130,7 @@
 	{
 		public PROJECTS = PROJECTS;
 		private selectedProject = 0;
+		public PROJECT_PLATFORM = PROJECT_PLATFORM; // 👈 ADD THIS
 
 		get getVideo(): string
 		{
@@ -173,11 +178,6 @@
 			return `/src/projects/${project.link}/${project.link}_logo`;
 		}
 
-		private checkPlatform(platform: PROJECT_PLATFORM) : boolean
-		{
-			return platform != PROJECT_PLATFORM.STEAM;
-		}
-
 		get currentProject(): Project
 		{
 			return this.reorderedProjects[this.selectedProject];
@@ -207,6 +207,14 @@
 				{
 					return "steam";
 				}
+				case PROJECT_PLATFORM.ITCH:
+				{
+					return "itch";
+				}
+				case PROJECT_PLATFORM.GITHUB:
+				{
+					return "github";
+				}
 				case PROJECT_PLATFORM.XBOX:
 				{
 					return "xbox";
@@ -229,6 +237,7 @@
 				}
 				case GAME_ENGINE.GUDENUFF_ENGINE:
 				case GAME_ENGINE.IN_HOUSE:
+				case GAME_ENGINE.ENFUSION:
 				{
 					return "home";	
 				}

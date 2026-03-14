@@ -19,7 +19,8 @@ export enum GAME_ENGINE
 	UNREAL_ENGINE = "Unreal Engine",
 	GUDENUFF_ENGINE = "Gudenuff Engine (Custom Engine)",
 	GALLUS_ENGINE = "Gallus Engine (Custom Engine)",
-	IN_HOUSE = "Proprietary Engine"
+	IN_HOUSE = "Proprietary Engine",
+	ENFUSION = "Enfusion Engine"
 }
 
 export enum PROJECT_PLATFORM
@@ -29,7 +30,9 @@ export enum PROJECT_PLATFORM
 	PS5 = "PS5",
 	XBOX = "XBOX",
 	VR = "VR",
-	STEAM = "Steam"
+	STEAM = "Steam",
+	ITCH = "Itch",
+	GITHUB = "GitHub",
 }
 
 export enum PROJECT_ROLE
@@ -63,6 +66,8 @@ export enum PROJECT_ROLE
 	GAME_DESIGNER = "Game Designer",
 	VOICE_ACTOR = "Voice Actor",
 	GENERALIST = "Generalist",
+	TECHNICAL_DESIGNER = "Technical Designer",
+	SCRIPTER = "Scripter",
 }
 
 export class TeammateLink
@@ -126,9 +131,11 @@ export enum PROJECT_TAG
 	GAME_ENGINE = "Game Engine",
 	LIBRARY = "Library",
 	TOOL = "Tool",
+	SHOWCASE = "Showcase",
 	PS4 = "PS4",
 	WINDOWS = "WINDOWS",
 	SIMULATION = "SIMULATION",
+	PORTING = "Porting",
 }
 
 export enum TEAMMATE
@@ -248,6 +255,7 @@ export class Project
 {
 	name: string;
 	description: string;
+	company: string;
 	year: string;
 	link: string;
 	platforms: PROJECT_PLATFORM[] = [];
@@ -263,6 +271,8 @@ export class Project
 
 	// Optional.
 	steamLink?: string;
+	itchLink?: string;
+	gitHubLink?: string;
 	specialImages?: string[] = [];
 	className?: string;
 	disabled?: boolean;
@@ -276,6 +286,7 @@ export class Project
 	// TeamSize method
 	constructor(
 		name: string,
+		company: string,
 		description: string,
 		year: string,
 		link: string,
@@ -291,6 +302,7 @@ export class Project
 	)
 	{
 		this.name = name;
+		this.company = company;
 		this.description = description;
 		this.year = year;
 		this.link = link;

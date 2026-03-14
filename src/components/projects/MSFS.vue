@@ -10,7 +10,7 @@
 				<img src="/msfs/src/img/msfs_credits.jpg" alt=""/>
 			</picture>
 
-			<p class="game-description first">I am currently <Accent>unable</Accent> to give more details than what I have already stated on what I did in Microsoft Flight Simulator 2024.</p>
+			<p class="game-description first">I worked as a <Accent>Gameplay Programmer</Accent> on Microsoft Flight Simulator 2024, contributing to <Accent>port work</Accent> and <Accent>additional content for the Reno gamemode</Accent>, as well as <Accent>creating the new Red Bull gamemode</Accent>. While specific details remain under NDA, my work involved implementing gameplay systems and features and creating mission-info.</p>
 
 			<h1 class="game-description">Things I learned</h1>
 
@@ -19,6 +19,8 @@
 				<li v-for="(task, index) in projectData.learn" :key="index">{{ task }}</li>
 
 			</ul>
+
+			<p class="game-description">I worked on the PlayStation 5 port of Microsoft Flight Simulator for a short period, before being moved to one of the gameplay projects for the game.</p>
 
 		</section>
 	
