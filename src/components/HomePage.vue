@@ -41,8 +41,6 @@
 
 				<h2 style="margin-bottom: 0; margin-top: 0; display: inline-block;">{{ currentProject.name.toUpperCase() }} <span style="color: gray;">{{ " (" + currentProject.year + ")"}}</span></h2>
 
-				<p v-if="currentProject.company">{{ currentProject.company }}</p>
-
 				<p>
 					<span v-for="(platform, index) in currentProject.platforms" :key="index">
 						<a class="steamLink" v-if="platform == PROJECT_PLATFORM.STEAM" :href="currentProject.steamLink"><Icon :icon="getPlatformIcon(platform)"></Icon>{{ ' ' + platform }}<span v-if="index !== currentProject.platforms.length - 1"> | </span></a>
@@ -109,8 +107,8 @@
 			Used in the router.
 			*/
 			startingProject: {
-				type: String,
-				default: 'msfs'
+				type: Number,
+				default: ''
 			},
 		},
 		components: {
@@ -123,7 +121,15 @@
 			Accent
 		},
 		created() {
-			this.setCurrentProject(0);
+			var project = 0;
+			if (this.startingProject)
+			{
+				project = this.PROJECTS.findIndex((p: Project) =>
+				{
+					return p.link === this.startingProject;
+				});
+			}
+			this.setCurrentProject(project);
 		}
 	})
 	export default class Home extends Vue
@@ -238,6 +244,7 @@
 				case GAME_ENGINE.GUDENUFF_ENGINE:
 				case GAME_ENGINE.IN_HOUSE:
 				case GAME_ENGINE.ENFUSION:
+				case GAME_ENGINE.GALLUS_ENGINE:
 				{
 					return "home";	
 				}

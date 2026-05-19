@@ -2,7 +2,7 @@
 
 	<span>
 
-		<span :style="'color: '+accentColor">
+		<span :style="'color: ' + accentColor + ';' + (accentBold ? 'font-weight: bold;' : '')">
 
 			<slot></slot>
 			
@@ -24,6 +24,10 @@
         get accentColor()
         {
             return EventBus.accentColor;
+        }
+        get accentBold()
+        {
+            return EventBus.accentBold;
         }
 	}
 

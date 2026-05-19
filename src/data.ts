@@ -118,214 +118,6 @@ function getLucaYavuzok(roles: PROJECT_ROLE[]): Teammate {
 	);
 }
 
-function getMattieToth(roles: PROJECT_ROLE[]): Teammate {
-	return new Teammate(
-		TEAMMATE.MATTIE_TOTH,
-		roles,
-		new TeammateLink("", "", "", "", "")
-	);
-}
-
-function getMaxVanDerPlas(roles: PROJECT_ROLE[]): Teammate {
-	return new Teammate(
-		TEAMMATE.MAX_VAN_DER_PLAS,
-		roles,
-		new TeammateLink("", "", "https://www.linkedin.com/in/max-van-der-plas-77611813b/", "https://www.artstation.com/maxvanderplas", "")
-	);
-}
-
-function getMikaGoddrie(roles: PROJECT_ROLE[]): Teammate {
-	return new Teammate(
-		TEAMMATE.MIKA_GODDRIE,
-		roles,
-		new TeammateLink("", "", "https://www.linkedin.com/in/mika-goddrie-030367244/", "https://www.artstation.com/mikagoddrie", "")
-	);
-}
-
-function getTiesDeGroot(roles: PROJECT_ROLE[]): Teammate {
-	return new Teammate(
-		TEAMMATE.TIES_DE_GROOT,
-		roles,
-		new TeammateLink("", "", "https://www.linkedin.com/in/ties-de-groot-027304192/", "", "")
-	);
-}
-
-function getSammieDeRaaff(roles: PROJECT_ROLE[]): Teammate {
-	return new Teammate(
-		TEAMMATE.SAMMIE_DE_RAAFF,
-		roles,
-		new TeammateLink("", "", "https://www.linkedin.com/in/sammie-de-raaff-17a41824b/", "", "")
-	);
-}
-
-function getRalphWarrand(roles: PROJECT_ROLE[]): Teammate {
-	return new Teammate(
-		TEAMMATE.RALPH_WARRAND,
-		roles,
-		new TeammateLink("https://www.ralphwarrand.com", "", "https://www.linkedin.com/in/ralphwarrand/", "", "")
-	);
-}
-
-function getAbdullaDonmez(roles: PROJECT_ROLE[]): Teammate {
-	return new Teammate(
-		TEAMMATE.ABDULLA_DONMEZ,
-		roles,
-		new TeammateLink("https://abdulladonmez.com", "", "https://www.linkedin.com/in/abdulladonmez/", "", "")
-	);
-}
-
-function getCasTrines(roles: PROJECT_ROLE[]): Teammate {
-	return new Teammate(
-		TEAMMATE.CAS_TRINES,
-		roles,
-		new TeammateLink("", "", "", "", "")
-	);
-}
-
-function getEsmeeVanBoven(roles: PROJECT_ROLE[]): Teammate {
-	return new Teammate(
-		TEAMMATE.ESMEE_VAN_BOVEN,
-		roles,
-		new TeammateLink("", "", "https://www.linkedin.com/in/esm%C3%A9e-van-boven-23914a261/", "", "")
-	);
-}
-
-function getAlexSmith(roles: PROJECT_ROLE[]): Teammate {
-	return new Teammate(
-		TEAMMATE.ALEX_SMITH,
-		roles,
-		new TeammateLink("", "", "https://www.linkedin.com/in/alex-smith-b1a039224/", "https://www.artstation.com/asparas", "")
-	);
-}
-
-function getAnneTeunissen(roles: PROJECT_ROLE[]): Teammate {
-	return new Teammate(
-		TEAMMATE.ANNE_TEUNISSEN,
-		roles,
-		new TeammateLink("", "", "https://www.linkedin.com/in/anne-teunissen-013186161/", "https://www.artstation.com/anneteunissen", "")
-	);
-}
-
-function getJimiWeijers(roles: PROJECT_ROLE[]): Teammate {
-	return new Teammate(
-		TEAMMATE.JIMI_WEIJERS,
-		roles,
-		new TeammateLink("", "", "https://www.linkedin.com/in/jimi-weijers-a53272a0/", "https://www.artstation.com/lexicon", "")
-	);
-}
-
-function getTomVanDerVeeken(roles: PROJECT_ROLE[]): Teammate {
-	return new Teammate(
-		TEAMMATE.TOM_VAN_DER_VEEKEN,
-		roles,
-		new TeammateLink("", "", "https://www.linkedin.com/in/tom-van-der-veeken-8b3407155/", "https://www.artstation.com/tvdv", "")
-	);
-}
-
-function getMateValent(roles: PROJECT_ROLE[]): Teammate {
-	return new Teammate(
-		TEAMMATE.MATE_VALENT,
-		roles,
-		new TeammateLink("", "", "https://www.linkedin.com/in/matevalent", "https://www.artstation.com/jjampy", "")
-	);
-}
-
-function getLeroyVis(roles: PROJECT_ROLE[]): Teammate {
-	return new Teammate(
-		TEAMMATE.LEROY_VIS,
-		roles,
-		new TeammateLink("", "", "https://www.linkedin.com/in/leroy-vis-1aa198174/", "https://www.artstation.com/icefish17", "")
-	);
-}
-
-function getRubenSmit(roles: PROJECT_ROLE[]): Teammate {
-	return new Teammate(
-		TEAMMATE.RUBEN_SMIT,
-		roles,
-		new TeammateLink("", "", "https://www.linkedin.com/in/ruben-smit-7a567715b/", "https://www.artstation.com/rubensmit", "")
-	);
-}
-
-function getRosanneGrootjes(roles: PROJECT_ROLE[]): Teammate {
-	return new Teammate(
-		TEAMMATE.ROSANNE_GROOTJES,
-		roles,
-		new TeammateLink("", "", "https://www.linkedin.com/in/rosanne-g-b557b2137/", "https://www.artstation.com/rosannegrootjes", "")
-	);
-}
-
-function getNathalieStuit(roles: PROJECT_ROLE[]): Teammate {
-	return new Teammate(
-		TEAMMATE.NATHALIE_STUIT,
-		roles,
-		new TeammateLink("", "", "https://www.linkedin.com/in/nathalie-stuit-38250124b/", "https://www.artstation.com/nathaliestuit", "")
-	);
-}
-
-function getJordyDeWaal(roles: PROJECT_ROLE[]): Teammate {
-	return new Teammate(
-		TEAMMATE.JORDY_DE_WAAL,
-		roles,
-		new TeammateLink("", "", "https://www.linkedin.com/in/jordy-de-waal-b7396b186/", "https://jordydewaal.artstation.com/", "")
-	);
-}
-
-function getTristanTenCate(roles: PROJECT_ROLE[]): Teammate {
-	return new Teammate(
-		TEAMMATE.TRISTAN_TEN_CATE,
-		roles,
-		new TeammateLink("", "", "https://www.linkedin.com/in/tristan-ten-cate-15a483168/", "", "")
-	);
-}
-
-function getRaduTandarica(roles: PROJECT_ROLE[]): Teammate {
-	return new Teammate(
-		TEAMMATE.RADU_TANDARICA,
-		roles,
-		new TeammateLink("", "", "https://www.linkedin.com/in/radu-tandarica-95064a223", "", "")
-	);
-}
-
-function getStefanosZarakovitis(roles: PROJECT_ROLE[]): Teammate {
-	return new Teammate(
-		TEAMMATE.STEFANOS_ZARAKOVITIS,
-		roles,
-		new TeammateLink("", "", "https://www.linkedin.com/in/stefanos-zarakovitis-303153245/", "", "")
-	);
-}
-
-function getAntonioMinev(roles: PROJECT_ROLE[]): Teammate {
-	return new Teammate(
-		TEAMMATE.STEFANOS_ZARAKOVITIS,
-		roles,
-		new TeammateLink("https://antoniominev.wixsite.com/website", "", "https://www.linkedin.com/in/antoniominev/", "", "")
-	);
-}
-
-function getRicoVisscher(roles: PROJECT_ROLE[]): Teammate {
-	return new Teammate(
-		TEAMMATE.RICO_VISSCHER,
-		roles,
-		new TeammateLink("", "", "https://www.linkedin.com/in/rico-visscher/", "", "")
-	);
-}
-
-function getYaroCopijn(roles: PROJECT_ROLE[]): Teammate {
-	return new Teammate(
-		TEAMMATE.YARO_COPIJN,
-		roles,
-		new TeammateLink("", "", "https://www.linkedin.com/in/yaro-copijn", "https://www.artstation.com/yaro_copijn", "")
-	);
-}
-
-function getCelineVanDerKnaap(roles: PROJECT_ROLE[]): Teammate {
-	return new Teammate(
-		TEAMMATE.CELINE_VAN_DER_KNAAP,
-		roles,
-		new TeammateLink("", "", "https://www.linkedin.com/in/celine-van-der-knaap-94a75916b", "https://www.artstation.com/celinevdknaap", "")
-	);
-}
-
 // function getDefault(roles: PROJECT_ROLE[]): Teammate {
 // 	return new Teammate(
 // 		TEAMMATE.DSADAS,
@@ -377,9 +169,9 @@ export const PROJECTS: Project[] = [
 		"Arma 4",
 		"Bohemia Interactive",
 		"Due to NDA, I am currently unable to say much about my work in Arma 4, but here are a few bullet points of my general activities.",
-		"2025-20XX",
+		"2026-20XX",
 		"arma4",
-		[ PROJECT_PLATFORM.WINDOWS, PROJECT_PLATFORM.STEAM ],
+		[ PROJECT_PLATFORM.WINDOWS, PROJECT_PLATFORM.STEAM, PROJECT_PLATFORM.XBOX, PROJECT_PLATFORM.PS5 ],
 		PROJECT_TYPE.VIDEO_GAME,
 		PROGRAMMING_LANGUAGE.CPP,
 		GAME_ENGINE.ENFUSION,
@@ -393,7 +185,7 @@ export const PROJECTS: Project[] = [
 			)
 		]),
 		[
-			"Created certain features in the Arma 4 environment",
+			"Created certain features in the Arma 4 environment.",
 			"Designed tools and workflows that empower technical designers and scripters to expand functionality.",
 			"Designed and created architecture meant for sharing between projects.",
 			"Focused on creating frameworks that support modding, community-driven content, and multiplayer features."
@@ -435,10 +227,43 @@ export const PROJECTS: Project[] = [
 			"How to identify and prioritize the most critical tasks during development",
 		],
 		[ PROJECT_TAG.SINGLEPLAYER, PROJECT_TAG.MULTIPLAYER ],
-		"#68A13C"
+		"#AC0C0C"
 	),
 	new Project(
-		"Gudenuff Engine (custom engine) + game",
+		"Gallus Engine (Custom Engine)",
+		"",
+		"A pet project of mine used for learning more about graphics, engine architecture, UI, audio and everything else. NOTE: This is a WIP and it is by no means finished. I work on this in my freetime.",
+		"2024-2026",
+		"gallusengine",
+		[ PROJECT_PLATFORM.WINDOWS, PROJECT_PLATFORM.VR, PROJECT_PLATFORM.GITHUB ],
+		PROJECT_TYPE.GAME_ENGINE,
+		PROGRAMMING_LANGUAGE.CPP,
+		GAME_ENGINE.GALLUS_ENGINE,
+		new UniqueCollection<Teammate>([
+			getKylianDekker(
+				[
+					PROJECT_ROLE.ENGINE_PROGRAMMER,
+					PROJECT_ROLE.AUDIO_PROGRAMMER,
+					PROJECT_ROLE.GRAPHICS_PROGRAMMER,
+					PROJECT_ROLE.UI_PROGRAMMER,
+					PROJECT_ROLE.GAMEPLAY_PROGRAMMER,
+				]
+			)
+		]),
+		[
+			"Designed and implemented all UI and features such as the file explorer, inspector, scene window and all others.",
+			"Developed a tool that lets me embed fonts directly into the engine and dynamically add or remove icons that get updated automatically by using nodeJS.",
+			"Did all the graphics work for the engine."
+		],
+		[
+			"Learned the basics of DirectX12, like resource management, render textures, root signatures, pipelines, etc.",
+			"Learned more about creating custom tools that help accelerate the development of a project like this.",
+		],
+		[ PROJECT_TAG.CUSTOM_ENGINE ],
+		"#B55214"
+	),
+	new Project(
+		"Gudenuff Engine (Custom Engine) + Game",
 		"",
 		"A game engine for a 2D roguelike dungeon crawlers with rhythm-based mechanics. Can compile games for PC and PS4. Used to make the game Setsuko: Drums of Harmony.",
 		"2023-2024",
@@ -568,39 +393,6 @@ export const PROJECTS: Project[] = [
 		"rgb(223 170 44)"
 	),
 	new Project(
-		"Gallus Engine (Custom Engine)",
-		"",
-		"A pet project of mine used for learning more about graphics, engine architecture, UI, audio and everything else. NOTE: This is a WIP and it is by no means finished. I work on this in my freetime.",
-		"2024-2025",
-		"gallusengine",
-		[ PROJECT_PLATFORM.WINDOWS, PROJECT_PLATFORM.VR, PROJECT_PLATFORM.GITHUB ],
-		PROJECT_TYPE.GAME_ENGINE,
-		PROGRAMMING_LANGUAGE.CPP,
-		GAME_ENGINE.GALLUS_ENGINE,
-		new UniqueCollection<Teammate>([
-			getKylianDekker(
-				[
-					PROJECT_ROLE.ENGINE_PROGRAMMER,
-					PROJECT_ROLE.AUDIO_PROGRAMMER,
-					PROJECT_ROLE.GRAPHICS_PROGRAMMER,
-					PROJECT_ROLE.UI_PROGRAMMER,
-					PROJECT_ROLE.GAMEPLAY_PROGRAMMER,
-				]
-			)
-		]),
-		[
-			"Designed and implemented all UI and features such as the file explorer, inspector, scene window and all others.",
-			"Developed a tool that lets me embed fonts directly into the engine and dynamically add or remove icons that get updated automatically by using nodeJS.",
-			"Did all the graphics work for the engine."
-		],
-		[
-			"Learned the basics of DirectX12, like resource management, render textures, root signatures, pipelines, etc.",
-			"Learned more about creating custom tools that help accelerate the development of a project like this.",
-		],
-		[ PROJECT_TAG.CUSTOM_ENGINE ],
-		"#6B57D4"
-	),
-	new Project(
 		"Audio Showcase",
 		"",
 		"A pet project of mine used for learning more about audio and signal processing.",
@@ -628,269 +420,37 @@ export const PROJECTS: Project[] = [
 		[ PROJECT_TAG.TOOL, PROJECT_TAG.SHOWCASE ],
 		"#FFCC2E"
 	),
-	new Project(
-		"S.P.L.I.C.E.D",
-		"",
-		"You take on the role of a strong-willed girl determined to challenge the tyranny of the mob leader Jiaolong and free Chinatown from their oppressor. Discover forgotten secrets and powerful weapons that will help you traverse the treacherous streets, as you set off on a dangerous mission to fight the mutants, monsters, and robotic enemies hiding within.",
-		"2023",
-		"spliced",
-		[ PROJECT_PLATFORM.WINDOWS, PROJECT_PLATFORM.STEAM ],
-		PROJECT_TYPE.VIDEO_GAME,
-		PROGRAMMING_LANGUAGE.CPP,
-		GAME_ENGINE.UNREAL_ENGINE,
-		new UniqueCollection<Teammate>([
-			getKylianDekker(
-				[
-					PROJECT_ROLE.GAMEPLAY_PROGRAMMER,
-					PROJECT_ROLE.AUDIO_LEAD,
-					PROJECT_ROLE.COMPOSER,
-				]
-			),
-			getTiesDeGroot(
-				[
-					PROJECT_ROLE.PROJECT_LEADER,
-					PROJECT_ROLE.GAME_DESIGNER,
-				]
-			),
-			getMaxVanDerPlas(
-				[
-					PROJECT_ROLE.ANIMATOR_LEAD,
-					PROJECT_ROLE.ARTIST_3D,
-					PROJECT_ROLE.ANIMATOR_3D,
-					PROJECT_ROLE.RIGGER,
-				]
-			),
-			getLucaYavuzok(
-				[
-					PROJECT_ROLE.DESIGN_LEAD,
-					PROJECT_ROLE.GAME_DESIGNER
-				]
-			),
-			getSammieDeRaaff(
-				[
-					PROJECT_ROLE.PRODUCER,
-					PROJECT_ROLE.GAME_DESIGNER
-				]
-			),
-			getRalphWarrand(
-				[
-					PROJECT_ROLE.PROGRAMMING_LEAD,
-					PROJECT_ROLE.GAMEPLAY_PROGRAMMER
-				]
-			),
-			getMikaGoddrie(
-				[
-					PROJECT_ROLE.ARTIST_3D,
-					PROJECT_ROLE.ANIMATOR_3D,
-					PROJECT_ROLE.RIGGER
-				]
-			),
-			getAbdullaDonmez(
-				[
-					PROJECT_ROLE.GAMEPLAY_PROGRAMMER,
-				]
-			),
-			getCasTrines(
-				[
-					PROJECT_ROLE.GAMEPLAY_PROGRAMMER,
-				]
-			),
-			getEsmeeVanBoven(
-				[
-					PROJECT_ROLE.ANIMATOR_3D,
-					PROJECT_ROLE.RIGGER,
-				]
-			),
-			getAlexSmith(
-				[
-					PROJECT_ROLE.ARTIST_3D,
-					PROJECT_ROLE.CHARACTER_ARTIST,
-					PROJECT_ROLE.ENVIRONMENT_ARTIST,
-				]
-			),
-			getAnneTeunissen(
-				[
-					PROJECT_ROLE.ARTIST_3D,
-					PROJECT_ROLE.ENVIRONMENT_ARTIST,
-				]
-			),
-			getJimiWeijers(
-				[
-					PROJECT_ROLE.ARTIST_3D,
-					PROJECT_ROLE.CHARACTER_ARTIST,
-				]
-			),
-			getTomVanDerVeeken(
-				[
-					PROJECT_ROLE.ARTIST_3D,
-					PROJECT_ROLE.ENVIRONMENT_ARTIST,
-				]
-			),
-			getMateValent(
-				[
-					PROJECT_ROLE.ARTIST_LEAD,
-					PROJECT_ROLE.ARTIST_3D,
-					PROJECT_ROLE.ENVIRONMENT_ARTIST,
-				]
-			),
-			getLeroyVis(
-				[
-					PROJECT_ROLE.ARTIST_3D,
-					PROJECT_ROLE.ENVIRONMENT_ARTIST,
-				]
-			),
-			getRubenSmit(
-				[
-					PROJECT_ROLE.ARTIST_3D,
-					PROJECT_ROLE.CHARACTER_ARTIST,
-				]
-			),
-			getRosanneGrootjes(
-				[
-					PROJECT_ROLE.ARTIST_3D,
-					PROJECT_ROLE.CHARACTER_ARTIST,
-				]
-			),
-			getNathalieStuit(
-				[
-					PROJECT_ROLE.ARTIST_3D,
-					PROJECT_ROLE.CHARACTER_ARTIST,
-				]
-			),
-			getJordyDeWaal(
-				[
-					PROJECT_ROLE.ARTIST_3D,
-					PROJECT_ROLE.CHARACTER_ARTIST,
-				]
-			),
-			getYaroCopijn(
-				[
-					PROJECT_ROLE.ARTIST_3D,
-					PROJECT_ROLE.ANIMATOR_3D,
-					PROJECT_ROLE.RIGGER,
-				]
-			),
-			getCelineVanDerKnaap(
-				[
-					PROJECT_ROLE.ARTIST_LEAD,
-					PROJECT_ROLE.ARTIST_3D,
-					PROJECT_ROLE.ENVIRONMENT_ARTIST,
-				]
-			),
-			getMariaLoannou(
-				[
-					PROJECT_ROLE.ARTIST_3D,
-					PROJECT_ROLE.CHARACTER_ARTIST,
-					PROJECT_ROLE.ANIMATOR_3D,
-				]
-			),
-			getTristanTenCate(
-				[
-					PROJECT_ROLE.GAMEPLAY_PROGRAMMER
-				]
-			),
-			getMattieToth(
-				[
-					PROJECT_ROLE.GAMEPLAY_PROGRAMMER
-				]
-			),
-			getRaduTandarica(
-				[
-					PROJECT_ROLE.GAME_DESIGNER
-				]
-			),
-			getStefanosZarakovitis(
-				[
-					PROJECT_ROLE.GAME_DESIGNER
-				]
-			),
-			getAntonioMinev(
-				[
-					PROJECT_ROLE.GAME_DESIGNER
-				]
-			),
-			getRicoVisscher(
-				[
-					PROJECT_ROLE.GAME_DESIGNER
-				]
-			),
-		]),
-		[
-			"Designed and implemented the swordfish enemy.",
-			"Developed and integrated multiple systems for dynamic music and sound effects in Unreal Engine.",
-			"Worked on the player’s secondary weapon, the charge weapon, enhancing combat mechanics.",
-			"Composed the original soundtrack and created most of the sound effects."
-		],
-		[
-			"Learned how to navigate my way around in Unreal Engine."
-		],
-		[ PROJECT_TAG.SINGLEPLAYER ],
-		"#90785C"
-	),
-	new Project(
-		"In Sheeps’s Clothing",
-		"",
-		"The political party for animal rights has been taken over by animals and has arranged a meeting about their possibly evil plans for the future. You’ll be disguised as a sheep and you’ll attend this meeting. Do not do anything suspicious, though! Who knows what they’ll do if they find out that you’re spying on them?",
-		"2024",
-		"insheepsclothing",
-		[ PROJECT_PLATFORM.WINDOWS, PROJECT_PLATFORM.VR ],
-		PROJECT_TYPE.VIDEO_GAME,
-		PROGRAMMING_LANGUAGE.CS,
-		GAME_ENGINE.UNITY_ENGINE,
-		new UniqueCollection<Teammate>([
-			getKylianDekker(
-				[
-					PROJECT_ROLE.GAMEPLAY_PROGRAMMER,
-					PROJECT_ROLE.COMPOSER,
-					PROJECT_ROLE.SOUND_DESIGNER,
-					PROJECT_ROLE.GAME_DESIGNER,
-					PROJECT_ROLE.ARTIST_3D
-				]
-			),
-			getStanVogels(
-				[
-					PROJECT_ROLE.GAMEPLAY_PROGRAMMER,
-					PROJECT_ROLE.GAME_DESIGNER,
-				]
-			),
-			getKayminSambrano(
-				[
-					PROJECT_ROLE.VOICE_ACTOR
-				]
-			),
-		]),
-		[
-			"Designed and implemented several key gameplay elements, including VR physics and camera mechanics.",
-			"Composed the original soundtrack, designed sound effects and created all 3D models."
-		],
-		[
-			"Make shared libraries for VR projects and make them dynamic enough where specific game mechanics can be changed."
-		],
-		[ PROJECT_TAG.SINGLEPLAYER, PROJECT_TAG.VR ],
-		"#5E5D3E"
-	)
 ];
 
 PROJECTS[0].steamLink = "https://store.steampowered.com/app/2537590/Microsoft_Flight_Simulator_2024/";
-PROJECTS[4].steamLink = "https://store.steampowered.com/app/2672620/CoopScoop/";
-PROJECTS[7].steamLink = "https://store.steampowered.com/app/2163220/SPLICED/";
-PROJECTS[3].itchLink = "https://buas.itch.io/gudenuff-drumsofharmony";
+PROJECTS[5].steamLink = "https://store.steampowered.com/app/2672620/CoopScoop/";
+PROJECTS[4].itchLink = "https://buas.itch.io/gudenuff-drumsofharmony";
+PROJECTS[3].gitHubLink = "https://github.com/kyliandekker/gallus-3D";
 
 const CURRENT_DATE: Date = new Date();
-const PROGRAMMING_YEAR = 2016;
+const C_PROGRAMMING_YEAR = 2016;
 const PROGRAMMING_YEAR_CPP = 2021;
+const PROGRAMMING_YEAR_AAA = 2023;
 const BIRTHDAY: Date = new Date("January 25, 2000 00:00:00");
 
 export const CURRENT_YEAR = () => {
 	return CURRENT_DATE.getFullYear();
 };
 
+export const PROGRAMMING_YEAR = () => {
+	return C_PROGRAMMING_YEAR;
+};
+
 export const PROGRAMMING_EXPERIENCE = () => {
-	return CURRENT_YEAR() - PROGRAMMING_YEAR;
+	return CURRENT_YEAR() - C_PROGRAMMING_YEAR;
 };
 
 export const PROGRAMMING_EXPERIENCE_CPP = () => {
 	return CURRENT_YEAR() - PROGRAMMING_YEAR_CPP;
+};
+
+export const PROGRAMMING_EXPERIENCE_AAA = () => {
+	return CURRENT_YEAR() - PROGRAMMING_YEAR_AAA;
 };
 
 export const AGE = () => {

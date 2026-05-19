@@ -80,7 +80,7 @@
 
 			<h1 class="title">The game</h1>
 
-			<video class="media-video right" controls poster="/gudenuffengine/src/img/thumb_gudenuffengine_gameplay.jpg">
+			<video class="media-video right" controls>
 				<source src="/gudenuffengine/src/mp4/gudenuffengine_gameplay_c.mp4" type="video/mp4" />
 				<!-- <source src="/gudenuffengine/src/mp4/gameplay_c.mp4" type="video/webm" /> -->
 				Your browser does not support the video tag.
